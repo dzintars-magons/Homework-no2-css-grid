@@ -87,3 +87,19 @@ html {
   grid-area: footer;
 }
 
+/*CHILDREN THAT WILL BE NEEDED FOR DESKTOP VERSION*/
+
+.child12{
+  grid-area: herof;
+  display: none;
+}
+
+.child13{
+  grid-area: sidebar;
+  display: none;
+}
+
+.child14{
+  grid-area: sidebar-f;
+  display: none;
+}
