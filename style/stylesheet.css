@@ -10,8 +10,19 @@ html {
       width: 576px;
       display: grid;
       grid-template-columns: 192px 192px 192px;
-      grid-template-rows: 31;
+      grid-template-rows: 100%*30; 
       margin: auto;
+      grid-template-areas: 
+      "header  header  header"
+      "brand   brand   brand"
+      "global    .     tools"
+      "hero    hero    hero"
+      "call    call    call"
+      "body    body    body"
+      "article article article"
+      "advert  advert  advert"
+      "listing listing listing"
+      "footer  footer  footer";
 
   }
 
