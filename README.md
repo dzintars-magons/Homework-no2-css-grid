@@ -1,0 +1,1 @@
+# Homework_No2_dzintars_magons
