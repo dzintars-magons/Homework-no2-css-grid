@@ -18,7 +18,7 @@ html {
       width: 576px;
       display: grid;
       grid-template-columns: 144px 144px 144px 144px;
-      grid-template-rows: 100%*30; 
+      grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px; 
       margin: auto;
       grid-template-areas: 
       "header  header  header  header"
@@ -31,19 +31,18 @@ html {
       "advert  advert  advert  advert"
       "listing listing listing listing"
       "footer  footer  footer  footer";
-
+      grid-gap: 10px;
   }
 
   .child{
-      width: 100%;
-      height: 100px;
+      width: 90%%;
+      height: 90%;
       background-color: teal;
-      border-bottom: 1px solid black;
   }
 
 .child01{
     grid-area: header;
-    
+  
 }
 
 .child02{
@@ -52,7 +51,6 @@ html {
 
 .child03{
   grid-area: global; 
-  border-right: 1px solid black;
 }
 
 .child04{
