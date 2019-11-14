@@ -39,10 +39,13 @@ html {
       " .         .       .      .        .        .     .       .        .    sidebar sidebar sidebar"
       ".          .        .    .         .        .     .       .        .    sidef   sidef   sidef  "
       "footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer";
-      grid-gap: 10px
+    
       
   }
 
+.child{
+margin: 5px;
+}
 
 .child01{
     grid-area: header;
