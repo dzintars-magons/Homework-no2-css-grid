@@ -39,65 +39,77 @@ html {
       " .         .       .      .        .        .     .       .        .    sidebar sidebar sidebar"
       ".          .        .    .         .        .     .       .        .    sidef   sidef   sidef  "
       "footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer";
-      /*grid-gap: 5px;*/
+      grid-gap: 5px
       
   }
 
 
 .child01{
     grid-area: header;
+    background-color: coral;
     
 }
 
 .child02{
   grid-area: brand;
-  
+  background-color: darkgoldenrod;
 }
 
 .child03{
   grid-area: global; 
+  background-color: darkolivegreen;
 }
 
 .child04{
   grid-area: tools; 
+  background-color: darkorchid;
 }
 
 .child05{
   grid-area: hero; 
+  background-color: rgb(102, 30, 1);
 }
 
 .child06{
   grid-area: call;
+  background-color: forestgreen;
 }
 
 .child07{
   grid-area: body;
+  background-color: khaki;
 }
 
 .child08{
   grid-area: article;
+  background-color: lightsalmon;
 }
 
 .child09{
   grid-area: advert;
+  background-color: mediumblue;
 }
 
 .child10{
   grid-area: listing ;
+  background-color: orange;
 }
 
 .child11{
   grid-area: sidebar;
   display: none;
+  background-color: red;
 }
 
 .child12{
   grid-area: sidef;
   display: none;
+  background-color: yellow;
 }
 
 .child13{
   grid-area: footer;
+  background-color: #456FFF;
 }
 
 
