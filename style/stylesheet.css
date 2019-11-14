@@ -61,6 +61,7 @@ margin-bottom: 5px;
 .child03{
   grid-area: global; 
   background-color: darkolivegreen;
+  margin-right: 5px;
 }
 
 .child04{
