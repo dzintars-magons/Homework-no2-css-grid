@@ -11,7 +11,7 @@ html {
   body{
     background-color: #87ACA3;
     margin: 0px;
-    width: 576px;
+    width: 575px;
   }
 
   h1{
@@ -31,6 +31,7 @@ html {
       "    .   brand   brand   brand   brand   brand   brand   brand   brand   brand   brand        ."
       "    .   global  global  global  global  global  global  tools   tools   tools   tools    .    "
       "hero    hero    hero    hero    hero    hero    hero    hero    hero    hero    hero    hero  "
+      "herof   herof   herof   herof   herof   herof   herof   herof   herof   herof   herof   herof "
       ".       call    call    call    call    call    call    call    call    call    call     .    "
       "body    body    body    body    body    body    body    body    body    body    body    body  "
       ".       article article article article article article article article article article      ."
@@ -75,47 +76,92 @@ margin-bottom: 5px;
 }
 
 .child06{
+  grid-area: herof;
+  background-color: springgreen;
+  display: none;
+}
+
+.child07{
   grid-area: call;
   background-color: forestgreen;
 }
 
-.child07{
+.child08{
   grid-area: body;
   background-color: khaki;
 }
 
-.child08{
+.child09{
   grid-area: article;
   background-color: lightsalmon;
 }
 
-.child09{
+.child10{
   grid-area: advert;
   background-color: mediumblue;
 }
 
-.child10{
+.child11{
   grid-area: listing ;
   background-color: orange;
 }
 
-.child11{
+.child12{
   grid-area: sidebar;
   display: none;
   background-color: red;
 }
 
-.child12{
+.child13{
   grid-area: sidef;
   display: none;
   background-color: yellow;
 }
 
-.child13{
+.child14{
   grid-area: footer;
   background-color: #456FFF;
 }
 
+/*MEDIA FOR TABLET*/
+@media screen and (min-width: 576px){
 
+  .container{
+    grid-template-areas: 
+      "header  header  header  header  header  header  header  header  header  header  header  header"
+      "brand   brand   brand   global  global  global  global  global  global  tools   tools   tools "
+      "hero    hero    hero    hero    hero    hero    hero    hero    hero    hero    hero    hero  "
+      "herof   herof   herof   herof   herof   herof   herof   herof   herof   herof   herof   herof "
+      "call    call    call    call    call    call    call    call    call    call    call    call  "
+      "body    body    body    body    body    body    body    body    body    body    body    body  "
+      "article article article article article article article article article advert  advert  advert"
+      "listing listing listing listing listing listing listing listing listing listing listing listing"
+      "sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar sidebar"
+      "sidef   sidef   sidef   sidef   sidef   sidef   sidef   sidef   sidef   sidef   sidef   sidef "
+      "footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer";
+    
+    
+  }
+  .child{
+    display: block;
+        }
+}
+/*MEDIA FOR DESKTOP*/
 
-/*ir ideja body backgroudn color un child01 background color uzlikt vienadas lai ta heading dala saplust*/
+@media screen and (min-width: 992px){
+  .container{
+    grid-template-areas: 
+      "header  header  header  header  header  header  header  header  header  header  header  header"
+      "brand   brand   brand   global  global  global  global  global  global  tools   tools   tools "
+      "hero    hero    hero    hero    hero    hero    hero    hero    hero    advert  advert  advert"
+      "herof   herof   herof   herof   herof   herof   call    call    call    advert  advert  advert"
+      "body    body    body    body    body    body    body    body    body    sidebar sidebar sidebar"
+      "article article article listing listing listing listing listing listing sidef   sidef   sidef"
+      "footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer  footer";
+    
+    
+  }
+  .child{
+    display: block;
+        }
+}
