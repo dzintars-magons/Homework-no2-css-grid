@@ -21,6 +21,12 @@ html {
   p{
     text-align: center;
   }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
   .container{
       display: grid;
       grid-template-columns: repeat(12, 1fr);
@@ -162,3 +168,4 @@ margin-bottom: 5px;
   }
 
 }
+
