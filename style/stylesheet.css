@@ -57,82 +57,82 @@ html {
   }
 
 
-.child01{
+.header{
     grid-area: header;
     background-color: coral;
     
 }
 
-.child02{
+.brand{
   grid-area: brand;
   background-color: darkgoldenrod;
 }
 
-.child03{
+.global{
   grid-area: global; 
   background-color: darkolivegreen;
   margin-right: 5px;
 }
 
-.child04{
+.tools{
   grid-area: tools; 
   background-color: darkorchid;
 }
 
-.child05{
+.hero{
   grid-area: hero; 
   background-color: rgb(102, 30, 1);
 }
 
-.child06{
+.hero-feature{
   grid-area: herof;
   background-color: springgreen;
   display: none;
 }
 
-.child07{
+.call{
   grid-area: call;
   background-color: forestgreen;
 }
 
-.child08{
+.body{
   grid-area: body;
   background-color: khaki;
 }
 
-.child09{
+.article{
   grid-area: article;
   background-color: lightsalmon;
 }
 
-.child10{
+.advert{
   grid-area: advert;
   background-color: mediumblue;
 }
 
-.child11{
+.listing{
   grid-area: listing ;
   background-color: orange;
 }
 
-.child12{
+.sidebar{
   grid-area: sidebar;
   display: none;
   background-color: red;
 }
 
-.child13{
+.side-feature{
   grid-area: sidef;
   display: none;
   background-color: yellow;
 }
 
-.child14{
+.footer{
   grid-area: footer;
   background-color: #456FFF;
 }
 
-.child01, .child02, .child03,.child04,.child05,.child07, .child08, .child09, .child10, .child11, .child14 {
+.header, .brand, .global,.tools,.hero,.call, .body, .article, .advert, .listing, .footer {
   display: flex;
   align-items: center;
 }
