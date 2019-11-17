@@ -107,7 +107,7 @@ html {
 
 .advert{
   grid-area: advert;
-  background-color: mediumblue;
+  background-color: #000000;
 }
 
 .listing{
